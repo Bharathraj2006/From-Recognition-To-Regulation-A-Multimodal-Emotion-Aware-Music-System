@@ -22,8 +22,8 @@ from sentence_transformers import SentenceTransformer, util
 from PIL import Image
 
 # ---------- Spotify client id/secret (used only for read-only extraction) ----------
-SPOTIFY_CLIENT_ID = "a75e5cbc067b478292fb29ed87943dba"
-SPOTIFY_CLIENT_SECRET = "4f7809b3b5a141a8b1b3721865338fe2"
+SPOTIFY_CLIENT_ID = "Enter your id"
+SPOTIFY_CLIENT_SECRET = "enter your client secret id"
 
 # ---------- Flask app ----------
 app = Flask(__name__)
